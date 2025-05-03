@@ -2,7 +2,7 @@
 
 int main() {
     // Movimento da Torre - 5 casas para a Direita
-    // Uzando o laço FOR
+    // Utilizando o laço FOR
     printf("Movimento da Torre (5 casas para a Direita):\n");
     for (int i = 0; i < 5; i++) {
         printf("Direita\n");
@@ -11,7 +11,7 @@ int main() {
     printf("\n");
 
     // Movimento do Bispo - 5 casas na diagonal para Cima e Direita
-    // Uzando o WHILE
+    // Utilizando o WHILE
     printf("Movimento do Bispo (5 casas na Diagonal - Cima Direita):\n");
     int j = 0;
     while (j < 5) {
@@ -22,7 +22,7 @@ int main() {
     printf("\n");
 
     // Movimento da Rainha - 8 casas para a Esquerda
-    // Usando o DO-WHILE
+    // Utilizando o DO-WHILE
     printf("Movimento da Rainha (8 casas para a Esquerda):\n");
     int k = 0;
     do {
